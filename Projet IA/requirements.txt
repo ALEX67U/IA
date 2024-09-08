@@ -1,0 +1,6 @@
+# Ce fichier ne marche pas
+# pip install -r requirements.txt
+torch
+sounddevice
+soundfile
+ollama

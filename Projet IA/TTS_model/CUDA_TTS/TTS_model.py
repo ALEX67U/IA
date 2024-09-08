@@ -9,7 +9,7 @@ import sounddevice as sd
 import soundfile as sf
 
 class TTS_model:
-    def __init__(self, paused=True):
+    def __init__(self, paused=False):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         print(f"Using device: {self.device}\n")
 
